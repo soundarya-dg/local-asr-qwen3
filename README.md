@@ -44,7 +44,7 @@ ollama pull frozenlab/qwen3-asr:0.6b
 ### 3. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/local-asr-qwen3.git
+git clone https://github.com/soundarya-dg/local-asr-qwen3.git
 cd local-asr-qwen3
 ```
 
