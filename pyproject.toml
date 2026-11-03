@@ -4,13 +4,15 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "local-asr-qwen3"
-version = "0.1.0"
+version = "0.2.0"
 description = "A local speech-to-text tool using Qwen3-ASR 0.6B and Ollama on macOS."
 requires-python = ">=3.10"
 dependencies = [
     "sounddevice>=0.5,<1",
     "requests>=2.32,<3",
     "python-dotenv>=1.0,<2",
+    "pynput>=1.8,<2",
+    "pyobjc-framework-Quartz>=10",
 ]
 
 [project.optional-dependencies]
